@@ -5,7 +5,7 @@ It's designed as a learning resource to help students and IT professionals set u
 
 ---
 
-## �️ VMware Setup
+## VMware Setup
 
 To complete this lab, you will need VMware Workstation. Download the VMware installer from the following Google Drive link:
 
@@ -23,15 +23,16 @@ The file `Laboratory 1  Ubuntu 22.04.5 LTS Installations.pptx` in this repositor
 
 ## 📝 Exercise Files
 
-**Important:** The exercise files for this lab are hosted in a separate Git repository. You will be provided with the link to this repository. **Students must use the provided Exercise Files for all lab activities, rather than their own personal files or folders.**
 
-*Exercise Files Repository Link: (To be provided by your instructor)*
+**Important:** The exercise files for this lab are hosted in a separate Git repository. **Students must use the provided Exercise Files for all lab activities, rather than their own personal files or folders.**
+
+*Exercise Files Repository Link: [https://github.com/kwameassa/Exercise-Files](https://github.com/kwameassa/Exercise-Files)*
 
 ---
 
 ---
 
-## �📂 Repository Contents
+## 📂 Repository Contents
 
 * `Laboratory 1 Ubuntu 22.04.5 LTS Installations.pptx`
     * A presentation file with step-by-step instructions for installing Ubuntu 22.04.5 LTS on VMware.
