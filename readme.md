@@ -5,12 +5,46 @@ It's designed as a learning resource to help students and IT professionals set u
 
 ---
 
-## 📂 Repository Contents
+## �️ VMware Setup
+
+To complete this lab, you will need VMware Workstation. Download the VMware installer from the following Google Drive link:
+
+**[Download VMware Workstation (Google Drive)](https://drive.google.com/drive/folders/1OKLd7tOieTVCX2aalNsCzTTNWjPUebsA?usp=sharing)**
+
+Follow the instructions in the PowerPoint slide (see below) for installation steps.
+
+---
+
+## 📊 PowerPoint Slide: Ubuntu Installation Guide
+
+The file `Laboratory 1  Ubuntu 22.04.5 LTS Installations.pptx` in this repository contains step-by-step instructions on how to download and install Ubuntu 22.04.5 LTS on VMware Workstation. Please refer to this presentation for detailed guidance.
+
+---
+
+## 📝 Exercise Files
+
+**Important:** The exercise files for this lab are hosted in a separate Git repository. You will be provided with the link to this repository. **Students must use the provided Exercise Files for all lab activities, rather than their own personal files or folders.**
+
+*Exercise Files Repository Link: (To be provided by your instructor)*
+
+---
+
+---
+
+## �📂 Repository Contents
 
 * `Laboratory 1 Ubuntu 22.04.5 LTS Installations.pptx`
     * A presentation file with step-by-step instructions for installing Ubuntu 22.04.5 LTS on VMware.
 * `setup/` *(if included)*
     * Contains the VMware setup file(s) required for creating the virtual machine.
+
+## 📂 Repository Contents
+
+* `Laboratory 1 Ubuntu 22.04.5 LTS Installations.pptx`  
+    PowerPoint presentation with step-by-step instructions for installing Ubuntu 22.04.5 LTS on VMware.
+* `setup/` *(if included)*  
+    Contains the VMware setup file(s) required for creating the virtual machine.
+* **Exercise Files** (in a separate repository; link to be provided)
 
 ---
 
@@ -19,6 +53,8 @@ It's designed as a learning resource to help students and IT professionals set u
 * **Host Machine**: Windows, Linux, or macOS with at least **8 GB RAM** and **100 GB** free disk space.
 * **Virtualization Software**: **VMware Workstation 17** or later.
 * **Ubuntu ISO**: [Ubuntu 22.04.5 Desktop (64-bit)](https://releases.ubuntu.com/releases/22.04.5/ubuntu-22.04.5-desktop-amd64.iso)
+
+## 🖥️ Requirements
 
 ---
 
@@ -36,6 +72,7 @@ It's designed as a learning resource to help students and IT professionals set u
 ```bash
 sudo apt-get update
 sudo apt-get install -y build-essential curl wget git vim net-tools ssh rsync nano unzip
+```
 
 ## 🔑 Default Lab Credentials
 
@@ -61,6 +98,7 @@ sudo reboot
 
 # Check hostname
 cat /etc/hostname
+```
 
 ## 📚 Additional Resources
 
